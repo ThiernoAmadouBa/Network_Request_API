@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Météo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Application Météo</h1>
+  </header>
+
+  <main class="main">
+    <!-- Section de recherche -->
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Entrez une ville..." />
+      <button id="search-button">Rechercher</button>
+    </div>
+
+    <!-- Section d'affichage des résultats -->
+    <div class="weather-container">
+      <h2 id="city-name">Nom de la ville</h2>
+      <div class="weather-info">
+        <div class="temperature" id="temperature">--°C</div>
+        <div class="description" id="weather-description">Description météo</div>
+      </div>
+      <div class="weather-icon">
+        <img id="icon" src="https://openweathermap.org/img/wn/01d.png" alt="Icône météo">
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 - Application Météo</p>
+
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
